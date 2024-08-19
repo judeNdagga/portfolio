@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 export function Services() {
   return (
-    <main className="mb-20" id="services">
+    <main className="mb-20">
       <HorizontalScrollCarousel />
       <Skills />
     </main>
@@ -99,6 +99,7 @@ const Skills = () => {
       // viewport={{
       //   once: false,
       // }}
+      id="services"
     >
      
 <h1 className="text-center sm:text-left sm:ml-20 sm:mb-20">SERVICES</h1>

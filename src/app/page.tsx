@@ -5,6 +5,7 @@ import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Services } from "./components/Services";
 import { Skills } from "./components/Skills";
+import { Contact } from "./components/Contact";
 
 export default function Home() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Home() {
       <Projects/>
       <Services/>
       <Skills/>
+      <Contact/>
     </div>
   );
 }
