@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="bg-gradient-to-r from-fuchsia-950 via-rose-600 to-fuchsia-950">
       <Intro/>
       <About/>
       <Projects/>
