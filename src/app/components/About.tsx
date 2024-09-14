@@ -1,9 +1,11 @@
+import { AnimatedText } from "./ui/AnimatedText";
+
 export function About() {
   return (
     <div className="sm:h-screen content-center" id="about">
       <h1 className="text-center sm:text-left sm:ml-20">ABOUT ME</h1>
       <p className="sm:p-10 uppercase text-3xl sm:text-5xl text-center">
-        I'M A FULLSTACK DEVELOPER with ~3 years of experience, focusing on
+        I'M A <AnimatedText text="FULLSTACK DEVELOPER"/> with ~3 years of experience, focusing on
         quality, minimalism and an enjoyable user experience
       </p>
       <p className="sm:ml-[20em] sm:mr-[20em] text-xl text-center">
