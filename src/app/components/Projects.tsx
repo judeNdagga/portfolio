@@ -36,7 +36,7 @@ export function Projects() {
     })();
   }, []);
   return (
-    <div className="">
+    <div className="text-white">
       <AnimatedText2 text="Some Projects I've worked on"/>
      <Project1/>
      <Project4/>

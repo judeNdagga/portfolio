@@ -23,7 +23,7 @@ export function Skills() {
     },
   };
   return (
-    <div className="h-screen">
+    <div className="h-screen text-white">
       <h1 className="text-center sm:text-left sm:ml-20 sm:mb-20">TOOLS</h1>
       {/* 1st level */}
       <div className="flex gap-[15em] mx-[8em]">

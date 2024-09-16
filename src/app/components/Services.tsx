@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 export function Services() {
   return (
-    <main className="mb-20">
+    <main className="mb-20 text-white">
       <HorizontalScrollCarousel />
       <Skills />
     </main>

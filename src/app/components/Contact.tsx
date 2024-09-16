@@ -24,7 +24,7 @@ export function Contact() {
         },
       };
   return (
-    <div className="sm:h-screen" id="contact">
+    <div className="sm:h-screen text-white" id="contact">
       <h1 className="text-center text-3xl mb-10">WANT TO WORK TOGETHER?</h1>
       <h1 className="text-center sm:text-right sm:mr-20 text-9xl mb-10">
         SAY HI
