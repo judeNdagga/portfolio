@@ -102,11 +102,11 @@ const Skills = () => {
       id="services"
     >
      
-<h1 className="text-center sm:text-left sm:ml-20 sm:mb-20">SERVICES</h1>
-<h1 className="text-center sm:text-left sm:ml-20 text-9xl">FRONTEND <br />DEVELOMENT</h1>
-<h1 className="text-center sm:text-right sm:mr-20 text-9xl">BACKEND <br />DEVELOPMENT</h1>
-<h1 className="text-center sm:text-left sm:ml-20 text-9xl">MOBILE <br />DEVELOPMENT</h1>
-<h1 className="text-center sm:text-right sm:mr-20 text-9xl">UNITY <br />DEVELOPMENT</h1>
+<h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 sm:mb-20 text-xl">SERVICES</h1>
+<h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 text-4xl md:text-6xl xl:text-9xl">FRONTEND <br />DEVELOMENT</h1>
+<h1 className="text-center pt-20 sm:pt-0 sm:text-right sm:mr-20 text-4xl md:text-6xl xl:text-9xl">BACKEND <br />DEVELOPMENT</h1>
+<h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 text-4xl md:text-6xl xl:text-9xl">MOBILE <br />DEVELOPMENT</h1>
+<h1 className="text-center pt-20 sm:pt-0 sm:text-right sm:mr-20 text-4xl md:text-6xl xl:text-9xl">UNITY <br />DEVELOPMENT</h1>
 
     </motion.div>
   );

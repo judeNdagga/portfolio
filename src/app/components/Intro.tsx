@@ -6,7 +6,7 @@ const words = `Hello, I'm Jude Ndagga
 
 export function Intro() {
   return (
-    <div className="h-[30em] sm:h-screen content-center sm:ml-0">
+    <div className="h-screen content-center">
       <TextGenerateEffect words={words} />
     </div>
   );

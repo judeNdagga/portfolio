@@ -3,6 +3,9 @@ import React from "react";
 import { FloatingNav } from "../components/ui/FloatingNav";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import Link from "next/link";
+import { FcAbout } from "react-icons/fc";
+import { FaCartPlus } from "react-icons/fa";
+import { RiCustomerService2Fill } from "react-icons/ri";
 export function Navbar() {
   const navItems = [
     
@@ -10,7 +13,7 @@ export function Navbar() {
       name: "About",
       
       id: "about",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <FcAbout className="h-4 w-4" />,
     },
    
     {
@@ -18,7 +21,7 @@ export function Navbar() {
     
       id: "services",
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <FaCartPlus className="h-4 w-4 text-orange-400" />
       ),
     },
     {
@@ -26,7 +29,7 @@ export function Navbar() {
       
       id:"contact",
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <RiCustomerService2Fill className="h-4 w-4 text-orange-400" />
       ),
     },
   ];

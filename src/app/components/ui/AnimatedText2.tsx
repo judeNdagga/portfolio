@@ -64,7 +64,7 @@ export const AnimatedText2 = ({
     }, [isInView]);
   
     return (
-      <Wrapper className="text-center text-7xl uppercase pt-14">
+      <Wrapper className="text-center text-6xl sm:text-7xl uppercase pt-14">
         <span className="sr-only">{textArray.join(" ")}</span>
         <motion.span
           ref={ref}

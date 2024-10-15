@@ -23,17 +23,17 @@ export function Skills() {
     },
   };
   return (
-    <div className="h-screen text-white">
-      <h1 className="text-center sm:text-left sm:ml-20 sm:mb-20">TOOLS</h1>
+    <div className="h-auto md:h-screen text-white">
+      <h1 className="text-center sm:text-left sm:ml-20 sm:mb-20 text-xl">TOOLS</h1>
       {/* 1st level */}
-      <div className="flex gap-[15em] mx-[8em]">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:flex pt-[4em] sm:pt-0 gap-[4em] xl:gap-[15em] mx-[8em]">
       <div>
 
         {/* react */}
         <motion.svg
           height="120"
           preserveAspectRatio="xMidYMid"
-          viewBox="0 0 256 228"
+          viewBox="0 0 256 256"
           width="120"
           xmlns="http://www.w3.org/2000/svg"
           variants={svgVariants}
@@ -133,7 +133,7 @@ export function Skills() {
 
       {/* 2nd level */}
       {/* mongodb */}
-      <div className=" flex gap-[15em] mx-[8em] my-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:flex gap-[6em] xl:gap-[15em] mx-[8em] my-20">
         <div>
       <motion.svg width="120" height="120"
       variants={svgVariants}

@@ -14,28 +14,28 @@ export default function OmanetParallaxImages() {
         alt="And example of a space launch"
         start={-200}
         end={200}
-        className="w-4/6"
+        className="sm:w-4/6"
       />
       <ParallaxImg
         src="/omanet/dev.png"
         alt="An example of a space launch"
         start={200}
         end={-250}
-        className="mx-auto w-2/3"
+        className="mx-auto sm:w-2/3"
       />
       <ParallaxImg
         src="/omanet/products.png"
         alt="Orbiting satellite"
         start={-200}
         end={200}
-        className="ml-auto w-2/3"
+        className="ml-auto sm:w-2/3"
       />
       <ParallaxImg
         src="/omanet/access.png/"
         alt="Orbiting satellite"
         start={0}
         end={-500}
-        className="ml-24 w-8/12"
+        className="sm:ml-24 sm:w-8/12"
       />
     </div>
   );

@@ -42,7 +42,7 @@ export function Projects() {
      <Project4/>
      <Project2/>
      <h1 className="text-center text-4xl sm:text-7xl">MORE PROJECTS</h1>
-     <div className="flex">
+     <div className="xl:flex">
       
      <Project3/>
      <Project5/>
@@ -56,7 +56,7 @@ export function Projects() {
 const section_height = 1500;
 const Project1 = () => {
   return(
-    <div className="relative w-full p-10"
+    <div className="relative w-full sm:p-10"
     style={{ height: `calc(${section_height}px + 100vh)` }}
     >
        <ZirambaCenterImage/>
@@ -71,7 +71,7 @@ const Project1 = () => {
 
 const Project2 = () => {
   return(
-    <div className="relative w-full p-10"
+    <div className="relative w-full sm:p-10"
     style={{ height: `calc(${section_height}px + 100vh)` }}
     >
      <PelumCenterImage/>
@@ -107,7 +107,7 @@ const Project3 = () => {
 
 const Project4 = () => {
   return(
-    <div className="relative w-full p-10"
+    <div className="relative w-full sm:p-10"
     style={{ height: `calc(${section_height}px + 100vh)` }}
     >
        <OmanetCenterImage/>
