@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "../components/ui/FloatingNav";
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
-import Link from "next/link";
+import { MdWorkHistory } from "react-icons/md";
 import { FcAbout } from "react-icons/fc";
 import { FaCartPlus } from "react-icons/fa";
 import { RiCustomerService2Fill } from "react-icons/ri";
@@ -29,7 +28,7 @@ export function Navbar() {
       
       id:"experience",
       icon: (
-        <RiCustomerService2Fill className="h-4 w-4 text-white" />
+        <MdWorkHistory className="h-4 w-4 text-white" />
       ),
     },
     {
