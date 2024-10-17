@@ -1,6 +1,6 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
-
+import { AnimatedText } from "./ui/AnimatedText";
 export function Services() {
   return (
     <main className="mb-20 text-white">

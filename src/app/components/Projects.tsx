@@ -85,7 +85,7 @@ const Project3 = () => {
   return(
     <div className="relative w-full p-10">
        <a
-            className="card w-full h-[22em] mb-20 shadow-xl hover:text-green-300"
+            className="card w-full h-[22em] mb-20 shadow-xl"
             href="https://play.google.com/store/apps/details?id=com.scaron.mama&hl=en_US&gl=US"
           >
             <Image
@@ -125,7 +125,7 @@ const Project5 = () => {
   return(
     <div className="relative w-full p-10">
         <a
-            className="card w-full h-[22em] mb-20 shadow-xl hover:text-green-300"
+            className="card w-full h-[22em] mb-20 shadow-xl"
             href="https://mitsubishi-ug.vercel.app/"
           >
             <Image

@@ -21,7 +21,15 @@ export function Navbar() {
     
       id: "services",
       icon: (
-        <FaCartPlus className="h-4 w-4 text-orange-400" />
+        <FaCartPlus className="h-4 w-4 text-white" />
+      ),
+    },
+    {
+      name: "Experience",
+      
+      id:"experience",
+      icon: (
+        <RiCustomerService2Fill className="h-4 w-4 text-white" />
       ),
     },
     {
@@ -29,7 +37,7 @@ export function Navbar() {
       
       id:"contact",
       icon: (
-        <RiCustomerService2Fill className="h-4 w-4 text-orange-400" />
+        <RiCustomerService2Fill className="h-4 w-4 text-white" />
       ),
     },
   ];
