@@ -8,10 +8,12 @@ export function Experience() {
       title: "April 2024 - September 2024",
       content: (
         <div>
-          <h1 className="text-3xl md:text-6xl text-white">OMANET</h1>
-          <h2 className="text-2xl text-white">Full Stack Developer</h2>
+          <h1 className="text-2xl md:text-6xl text-white">OMANET</h1>
+          <h2 className="text-xl md:text-2xl text-white">
+            Full Stack Developer
+          </h2>
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <ul className="list-disc text-xl">
+            <ul className="list-disc text-base md:text-xl">
               <li className="pt-10">
                 Developed and deployed the educational/e-commerce website for
                 OMANET Uganda with Next.js, Prisma and Tailwind.
@@ -32,10 +34,12 @@ export function Experience() {
       title: "January 2024 - July 2024",
       content: (
         <div>
-          <h1 className="text-3xl md:text-6xl text-white">PELUM Uganda</h1>
-          <h2 className="text-2xl text-white">Front-end Developer</h2>
+          <h1 className="text-2xl md:text-6xl text-white">PELUM Uganda</h1>
+          <h2 className="text-xl md:text-2xl text-white">
+            Front-end Developer
+          </h2>
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <ul className="list-disc text-xl">
+            <ul className="list-disc text-base md:text-xl">
               <li className="pt-10">
                 Developed an in-house Monitoring and Evaluation System as well
                 as Administrator dashboard for PELUM Uganda.
@@ -56,10 +60,14 @@ export function Experience() {
       title: "June 2022 - July 2023",
       content: (
         <div>
-          <h1 className="text-3xl md:text-6xl text-white">CLUTCH TECHNOLOGIES</h1>
-          <h2 className="text-2xl text-white">Full Stack Developer</h2>
+          <h1 className="text-2xl md:text-6xl text-white">
+            CLUTCH TECHNOLOGIES
+          </h1>
+          <h2 className="text-xl md:text-2xl text-white">
+            Full Stack Developer
+          </h2>
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <ul className="list-disc text-xl">
+            <ul className="list-disc text-base md:text-xl">
               <li className="pt-10">
                 Built and deployed applications for various clientele in various
                 areas like education, entertainment, transport and healthcare.
@@ -81,10 +89,12 @@ export function Experience() {
       title: "June 2021 - October 2021",
       content: (
         <div>
-          <h1 className="text-3xl md:text-6xl text-white">ZIRAMBA STORES</h1>
-          <h2 className="text-2xl text-white">Full Stack Developer</h2>
+          <h1 className="text-2xl md:text-6xl text-white">ZIRAMBA STORES</h1>
+          <h2 className="text-xl md:text-2xl text-white">
+            Full Stack Developer
+          </h2>
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <ul className="list-disc text-xl">
+            <ul className="list-disc text-base md:text-xl">
               <li className="pt-10">
                 Worked as a junior developer and played a significant role
                 developing the company’s online construction e-commerce
@@ -102,7 +112,6 @@ export function Experience() {
         </div>
       ),
     },
-   
   ];
   return (
     <div className="w-full" id="experience">

@@ -22,14 +22,14 @@ const HorizontalScrollCarousel = () => {
     <section ref={targetRef} className="relative h-[400vh]">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex space-x-40">
-          <div className="p-10 w-[90em]">
-            <h1 className="text-8xl text-center italic">
-              How I make <span className="ml-20">successful </span>
+          <div className="p-10 w-[30em] md:w-[90em]">
+            <h1 className="text-5xl md:text-8xl text-center italic">
+              How I make <span className="md:ml-20">successful </span>
               <br /> <span>projects with my</span>
               <br /> <span>clients</span>{" "}
             </h1>
           </div>
-          <div className="w-[40em]">
+          <div className="w-[25em] md:w-[40em]">
             <h1 className="sm:pt-[10em] text-4xl italic font-bold">
               1. COMMUNICATION
             </h1>
@@ -38,7 +38,7 @@ const HorizontalScrollCarousel = () => {
               requirements as well as prompt and beneficial feedback
             </p>
           </div>
-          <div className="w-[40em]">
+          <div className="w-[25em] md:w-[40em]">
             <h1 className="sm:pt-[1em] text-4xl italic font-bold">
               2. ANALYSIS
             </h1>
@@ -47,7 +47,7 @@ const HorizontalScrollCarousel = () => {
               best way forward always goes a long way.
             </p>
           </div>
-          <div className="w-[40em]">
+          <div className="w-[25em] md:w-[40em]">
             <h1 className="sm:pt-[10em] text-4xl italic font-bold">
               3. DESIGN
             </h1>
@@ -57,7 +57,7 @@ const HorizontalScrollCarousel = () => {
               depending on the client's interests.
             </p>
           </div>
-          <div className="w-[40em]">
+          <div className="w-[25em] md:w-[40em]">
             <h1 className="sm:pt-[1em] text-4xl italic font-bold">
               4. DEVELOPMENT
             </h1>
@@ -101,13 +101,25 @@ const Skills = () => {
       // }}
       id="services"
     >
-     
-<h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 sm:mb-20 text-xl">SERVICES</h1>
-<h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 text-4xl md:text-6xl xl:text-9xl">FRONTEND <br />DEVELOMENT</h1>
-<h1 className="text-center pt-20 sm:pt-0 sm:text-right sm:mr-20 text-4xl md:text-6xl xl:text-9xl">BACKEND <br />DEVELOPMENT</h1>
-<h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 text-4xl md:text-6xl xl:text-9xl">MOBILE <br />DEVELOPMENT</h1>
-<h1 className="text-center pt-20 sm:pt-0 sm:text-right sm:mr-20 text-4xl md:text-6xl xl:text-9xl">UNITY <br />DEVELOPMENT</h1>
-
+      <h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 sm:mb-20 text-xl">
+        SERVICES
+      </h1>
+      <h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 text-4xl md:text-6xl xl:text-9xl">
+        FRONTEND <br />
+        DEVELOMENT
+      </h1>
+      <h1 className="text-center pt-20 sm:pt-0 sm:text-right sm:mr-20 text-4xl md:text-6xl xl:text-9xl">
+        BACKEND <br />
+        DEVELOPMENT
+      </h1>
+      <h1 className="text-center pt-20 sm:pt-0 sm:text-left sm:ml-20 text-4xl md:text-6xl xl:text-9xl">
+        MOBILE <br />
+        DEVELOPMENT
+      </h1>
+      <h1 className="text-center pt-20 sm:pt-0 sm:text-right sm:mr-20 text-4xl md:text-6xl xl:text-9xl">
+        UNITY <br />
+        DEVELOPMENT
+      </h1>
     </motion.div>
   );
 };

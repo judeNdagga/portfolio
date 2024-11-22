@@ -17,17 +17,19 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r 
+    <div
+      className="bg-gradient-to-r 
     from-orange-900 from-10% 
     via-orange-700 via-50% 
-    to-orange-500 to-75%">
-      <Intro/>
-      <About/>
-      <Projects/>
-      <Experience/>
-      <Services/>
-      <Skills/>
-      <Contact/>
+    to-orange-500 to-75%"
+    >
+      <Intro />
+      <About />
+      <Projects />
+      <Experience />
+      <Services />
+      <Skills />
+      <Contact />
     </div>
   );
 }
