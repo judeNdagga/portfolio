@@ -30,7 +30,10 @@ export function Contact() {
       </h1>
       <div className="">
         <div className="flex gap-10 text-center sm:text-left mb-10 ml-12 md:ml-[15em] xl:ml-[20em]">
-          <a href="https://wa.me/+256776743220" className="text-5xl hover:scale-110 hover:text-green-400 transition duration-500">
+          <a
+            href="https://wa.me/+256776743220"
+            className="text-5xl hover:scale-110 hover:text-green-400 transition duration-500"
+          >
             Whatsapp
           </a>
 
@@ -70,7 +73,10 @@ export function Contact() {
           {/* after picture */}
         </div>
         <div className="flex gap-10 text-center sm:text-left mb-10 ml-12 md:ml-[15em] xl:ml-[40em]">
-          <a href="https://t.me/+256776743220" className="text-5xl hover:scale-110 hover:text-blue-400 transition duration-500">
+          <a
+            href="https://t.me/+256776743220"
+            className="text-5xl hover:scale-110 hover:text-blue-400 transition duration-500"
+          >
             Telegram
           </a>
 
@@ -104,7 +110,10 @@ export function Contact() {
           {/* after picture */}
         </div>
         <div className="flex gap-10 text-center sm:text-left mb-36 ml-12 md:ml-[15em] xl:ml-[60em]">
-          <a href="mailto:ndaggajude88@gmail.com" className="text-5xl hover:scale-110 hover:text-pink-900 transition duration-500">
+          <a
+            href="mailto:ndaggajude88@gmail.com"
+            className="text-5xl hover:scale-110 hover:text-pink-900 transition duration-500"
+          >
             Email
           </a>
 
