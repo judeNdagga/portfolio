@@ -29,7 +29,7 @@ const HorizontalScrollCarousel = () => {
               <br /> <span>clients</span>{" "}
             </h1>
           </div>
-          <div className="w-[25em] md:w-[40em]">
+          <div className="w-[22em] md:w-[40em]">
             <h1 className="sm:pt-[10em] text-4xl italic font-bold">
               1. COMMUNICATION
             </h1>
@@ -38,7 +38,7 @@ const HorizontalScrollCarousel = () => {
               requirements as well as prompt and beneficial feedback
             </p>
           </div>
-          <div className="w-[25em] md:w-[40em]">
+          <div className="w-[22em] md:w-[40em]">
             <h1 className="sm:pt-[1em] text-4xl italic font-bold">
               2. ANALYSIS
             </h1>
@@ -47,7 +47,7 @@ const HorizontalScrollCarousel = () => {
               best way forward always goes a long way.
             </p>
           </div>
-          <div className="w-[25em] md:w-[40em]">
+          <div className="w-[22em] md:w-[40em]">
             <h1 className="sm:pt-[10em] text-4xl italic font-bold">
               3. DESIGN
             </h1>
@@ -57,7 +57,7 @@ const HorizontalScrollCarousel = () => {
               depending on the client's interests.
             </p>
           </div>
-          <div className="w-[25em] md:w-[40em]">
+          <div className="w-[22em] md:w-[40em]">
             <h1 className="sm:pt-[1em] text-4xl italic font-bold">
               4. DEVELOPMENT
             </h1>
