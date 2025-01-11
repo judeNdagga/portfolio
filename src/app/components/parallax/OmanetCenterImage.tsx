@@ -43,7 +43,7 @@ export default function OmanetCenterImage() {
          text-4xl pl-[5em] text-white items-center h-[20%] w-full xl:w-[35%] bg-black bg-opacity-45
          hover:cursor-pointer hover:scale-110 hover:bg-green-600 hover:bg-opacity-45 
          transition duration-500"
-        href="https://omanet.vercel.app/"
+        href="https://omanet.net/"
       >
         OMANET
         <LuExternalLink className="ml-5" />
