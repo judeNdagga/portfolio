@@ -29,7 +29,7 @@ export const TextGenerateEffect = ({
       }
     );
   }, [scope.current]);
- 
+
   const renderWords = () => {
     return (
       <motion.div ref={scope}>
@@ -37,7 +37,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className="text-white opacity-0"
+              className="text-white opacity-0 hover:text-darkerBrown"
               style={{
                 filter: filter ? "blur(10px)" : "none",
               }}
@@ -49,11 +49,11 @@ export const TextGenerateEffect = ({
       </motion.div>
     );
   };
- 
+
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4 text-center">
-        <div className=" text-white w-full text-6xl sm:text-8xl italic leading-snug tracking-wide p-5 sm:p-0">
+        <div className=" text-white w-full text-6xl sm:text-8xl leading-snug tracking-wide p-5 sm:p-0">
           {renderWords()}
         </div>
       </div>

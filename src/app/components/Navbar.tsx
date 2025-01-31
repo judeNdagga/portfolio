@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "../components/ui/FloatingNav";
-import { MdWorkHistory } from "react-icons/md";
-import { FcAbout } from "react-icons/fc";
-import { FaCartPlus } from "react-icons/fa";
+import { AiFillInfoCircle } from "react-icons/ai";
+import { GrUserWorker } from "react-icons/gr";
+import { FaHistory } from "react-icons/fa";
 import { RiCustomerService2Fill } from "react-icons/ri";
 export function Navbar() {
   const navItems = [
@@ -11,26 +11,26 @@ export function Navbar() {
       name: "About",
 
       id: "about",
-      icon: <FcAbout className="h-4 w-4" />,
+      icon: <AiFillInfoCircle className="h-6 w-6" />,
     },
 
     {
       name: "Services",
 
       id: "services",
-      icon: <FaCartPlus className="h-4 w-4 text-white" />,
+      icon: <GrUserWorker className="h-6 w-6 text-white" />,
     },
     {
       name: "Experience",
 
       id: "experience",
-      icon: <MdWorkHistory className="h-4 w-4 text-white" />,
+      icon: <FaHistory className="h-6 w-6 text-white" />,
     },
     {
       name: "Contact",
 
       id: "contact",
-      icon: <RiCustomerService2Fill className="h-4 w-4 text-white" />,
+      icon: <RiCustomerService2Fill className="h-6 w-6 text-white" />,
     },
   ];
   return (

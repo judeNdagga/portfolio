@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import { Oswald } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "./components/Navbar";
 
-const jetbrainsMono = JetBrains_Mono({ 
-  subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  variable: '--font-jetbrainsMono'
+const oswald = Oswald({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700"],
+  variable: "--font-oswald",
 });
 
 export const metadata: Metadata = {
@@ -20,8 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={jetbrainsMono.variable}>
-        <Navbar/>
+      <body className={oswald.variable}>
+        <Navbar />
         {children}
       </body>
     </html>

@@ -44,7 +44,7 @@ export default function PelumCenterImage() {
          transition duration-500"
         href="https://pelum-uganda.vercel.app/"
       >
-        PELUM M&E SYSTEM
+        NOVA HR SYSTEM
         <LuExternalLink className="ml-5" />
       </a>
 

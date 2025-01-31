@@ -7,14 +7,19 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontFamily:{
-      primary: "var(--font-jetbrainsMono)",
+    fontFamily: {
+      primary: "var(--font-oswald)",
     },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      colors: {
+        brown: "#AC8969",
+        darkerBrown: "#875D37",
+        veryLightBrown: "#FBE9D1",
       },
     },
   },
