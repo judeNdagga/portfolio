@@ -9,10 +9,10 @@ export function About() {
       <h1 className="text-center sm:text-left sm:ml-20 text-xl">ABOUT ME</h1>
       <p className="sm:p-20 pt-8 sm:pt-0 uppercase text-3xl sm:text-7xl text-center font-thin">
         <AnimatedText text="FULLSTACK DEVELOPER" /> with{" "}
-        <span className="font-extrabold animate-pulse">4 years</span> of
+        <span className="font-extrabold text-darkerBrown">4 years</span> of
         experience--focusing on
-        <span className="font-bold animate-pulse"> quality</span>--minimalism
-        and an <span className="font-bold animate-pulse"> enjoyable </span>
+        <span className="font-bold text-darkerBrown"> quality</span>--minimalism
+        and an <span className="font-bold text-darkerBrown"> enjoyable </span>
         user experience
       </p>
       {/* <p className="xl:ml-[20em] xl:mr-[20em] md:text-xl text-center pt-8 sm:pt-0">

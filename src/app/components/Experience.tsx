@@ -8,7 +8,7 @@ export function Experience() {
       title: "April 2024 - September 2024",
       content: (
         <div>
-          <h1 className="text-2xl md:text-6xl text-white">OMANET</h1>
+          <h1 className="text-2xl md:text-6xl text-darkerBrown">OMANET</h1>
           <h2 className="text-xl md:text-2xl text-white">
             Full Stack Developer
           </h2>
@@ -34,7 +34,9 @@ export function Experience() {
       title: "January 2024 - July 2024",
       content: (
         <div>
-          <h1 className="text-2xl md:text-6xl text-white">PELUM Uganda</h1>
+          <h1 className="text-2xl md:text-6xl text-darkerBrown">
+            PELUM UGANDA
+          </h1>
           <h2 className="text-xl md:text-2xl text-white">
             Front-end Developer
           </h2>
@@ -60,7 +62,7 @@ export function Experience() {
       title: "June 2022 - July 2023",
       content: (
         <div>
-          <h1 className="text-2xl md:text-6xl text-white">
+          <h1 className="text-2xl md:text-6xl text-darkerBrown">
             CLUTCH TECHNOLOGIES
           </h1>
           <h2 className="text-xl md:text-2xl text-white">
@@ -89,7 +91,9 @@ export function Experience() {
       title: "June 2021 - October 2021",
       content: (
         <div>
-          <h1 className="text-2xl md:text-6xl text-white">ZIRAMBA STORES</h1>
+          <h1 className="text-2xl md:text-6xl text-darkerBrown">
+            ZIRAMBA STORES
+          </h1>
           <h2 className="text-xl md:text-2xl text-white">
             Full Stack Developer
           </h2>

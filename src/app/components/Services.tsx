@@ -24,9 +24,10 @@ const HorizontalScrollCarousel = () => {
         <motion.div style={{ x }} className="flex space-x-40">
           <div className="p-10 w-[30em] md:w-[90em]">
             <h1 className="text-5xl md:text-8xl text-center italic">
-              How I make <span className="md:ml-20">successful </span>
+              How I make{" "}
+              <span className="md:ml-20 text-darkerBrown">successful </span>
               <br /> <span>projects with my</span>
-              <br /> <span>clients</span>{" "}
+              <br /> <span className="text-darkerBrown">clients</span>{" "}
             </h1>
           </div>
           <div className="w-[22em] md:w-[40em]">

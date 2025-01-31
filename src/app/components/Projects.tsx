@@ -37,112 +37,97 @@ export function Projects() {
   }, []);
   return (
     <div className="text-white">
-      <AnimatedText2 text="Some Projects I've worked on"/>
-     <Project1/>
-     <Project4/>
-     <Project2/>
-     <h1 className="text-center text-4xl sm:text-7xl">MORE PROJECTS</h1>
-     <div className="xl:flex">
-      
-     <Project3/>
-     <Project5/>
-     </div>
-    
-     
-      
+      <AnimatedText2 text="Some Projects I've worked on" />
+      <Project1 />
+      <Project4 />
+      <Project2 />
+      <h1 className="text-center text-4xl sm:text-7xl">MORE PROJECTS</h1>
+      <div className="xl:flex">
+        <Project3 />
+        <Project5 />
+      </div>
     </div>
   );
 }
 const section_height = 1500;
 const Project1 = () => {
-  return(
-    <div className="relative w-full sm:p-10"
-    style={{ height: `calc(${section_height}px + 100vh)` }}
+  return (
+    <div
+      className="relative w-full sm:p-10"
+      style={{ height: `calc(${section_height}px + 100vh)` }}
     >
-       <ZirambaCenterImage/>
-       <ZirambaParallaxImages/>
-       <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-b from-zinc-950/0 to-zinc-950" />
-    
+      <ZirambaCenterImage />
+      <ZirambaParallaxImages />
+      <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-b from-zinc-950/0 to-zinc-950" />
     </div>
-  )
-}
-
-
+  );
+};
 
 const Project2 = () => {
-  return(
-    <div className="relative w-full sm:p-10"
-    style={{ height: `calc(${section_height}px + 100vh)` }}
+  return (
+    <div
+      className="relative w-full sm:p-10"
+      style={{ height: `calc(${section_height}px + 100vh)` }}
     >
-     <PelumCenterImage/>
-     <PelumParallaxImages/>
+      <PelumCenterImage />
+      <PelumParallaxImages />
     </div>
-  )
-}
-
+  );
+};
 
 const Project3 = () => {
-  return(
+  return (
     <div className="relative w-full p-10">
-       <a
-            className="card w-full h-[22em] mb-20 shadow-xl"
-            href="https://play.google.com/store/apps/details?id=com.scaron.mama&hl=en_US&gl=US"
-          >
-            <Image
-              src={mama}
-              className=" brightness-75 hover:brightness-50 transition duration-500"
-              width={1920}
-              height={1080}
-              alt="image"
-            />
-            <h1 className="relative sm:bottom-[3%] text-2xl sm:ml-10">
-              MAMA LEARNING PLATFORM
-            </h1>
-          </a>
+      <a
+        className="card w-full h-[22em] mb-20 shadow-xl"
+        href="https://play.google.com/store/apps/details?id=com.scaron.mama&hl=en_US&gl=US"
+      >
+        <Image
+          src={mama}
+          className=" brightness-75 hover:brightness-50 transition duration-500"
+          width={1920}
+          height={1080}
+          alt="image"
+        />
+        <h1 className="relative sm:bottom-[3%] text-2xl sm:ml-10">
+          MAMA LEARNING PLATFORM
+        </h1>
+      </a>
     </div>
-  )
-}
-
-
+  );
+};
 
 const Project4 = () => {
-  return(
-    <div className="relative w-full sm:p-10"
-    style={{ height: `calc(${section_height}px + 100vh)` }}
+  return (
+    <div
+      className="relative w-full sm:p-10"
+      style={{ height: `calc(${section_height}px + 100vh)` }}
     >
-       <OmanetCenterImage/>
-       <OmanetParallaxImages/>
-       <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-b from-zinc-950/0 to-zinc-950" />
-    
+      <OmanetCenterImage />
+      <OmanetParallaxImages />
+      <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-b from-zinc-950/0 to-zinc-950" />
     </div>
-  )
-}
-
-
-
+  );
+};
 
 const Project5 = () => {
-  return(
+  return (
     <div className="relative w-full p-10">
-        <a
-            className="card w-full h-[22em] mb-20 shadow-xl"
-            href="https://mitsubishi-ug.vercel.app/"
-          >
-            <Image
-              src={mitsu}
-              className=" brightness-75 hover:brightness-50 transition duration-500"
-              width={1920}
-              height={1080}
-              alt="image"
-            />
-            <h1 className="relative sm:bottom-[3%] text-2xl sm:ml-10">
-              MITSUBISHI DEMO
-            </h1>
-          </a>
+      <a
+        className="card w-full h-[22em] mb-20 shadow-xl"
+        href="https://mitsubishi-ug.vercel.app/"
+      >
+        <Image
+          src={mitsu}
+          className=" brightness-75 hover:brightness-50 transition duration-500"
+          width={1920}
+          height={1080}
+          alt="image"
+        />
+        <h1 className="relative sm:bottom-[3%] text-2xl sm:ml-10">
+          MITSUBISHI DEMO
+        </h1>
+      </a>
     </div>
-  )
-}
-
-
-
-
+  );
+};
