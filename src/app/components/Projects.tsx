@@ -37,7 +37,7 @@ export function Projects() {
   }, []);
   return (
     <div className="text-white">
-      <AnimatedText2 text="Some Projects I've worked on" />
+      <AnimatedText2 text="projects" />
       <Project1 />
       <Project4 />
       <Project2 />

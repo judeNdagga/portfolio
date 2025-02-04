@@ -1,7 +1,7 @@
 import { Variant, motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
-type AnimatedText2Props = {
+type AnimatedText3Props = {
   text: string | string[];
   el?: keyof JSX.IntrinsicElements;
   className?: string;
@@ -29,14 +29,14 @@ const defaultAnimations = {
   },
 };
 
-export const AnimatedText2 = ({
+export const AnimatedText3 = ({
   text,
   el: Wrapper = "p",
   className,
   once,
   repeatDelay,
   animation = defaultAnimations,
-}: AnimatedText2Props) => {
+}: AnimatedText3Props) => {
   const controls = useAnimation();
   const textArray = Array.isArray(text) ? text : [text];
   const ref = useRef(null);
@@ -80,7 +80,7 @@ export const AnimatedText2 = ({
           <span className="block" key={`${line}-${lineIndex}`}>
             {line.split(" ").map((word, wordIndex) => (
               <span className="inline-block" key={`${word}-${wordIndex}`}>
-                some{" "}
+                work{" "}
                 {word.split("").map((char, charIndex) => (
                   <motion.span
                     key={`${char}-${charIndex}`}
@@ -90,7 +90,6 @@ export const AnimatedText2 = ({
                     {char}
                   </motion.span>
                 ))}{" "}
-                I've worked on
                 <span className="inline-block">&nbsp;</span>
               </span>
             ))}
