@@ -42,7 +42,7 @@ export default function PelumCenterImage() {
          text-4xl pl-16 text-white items-center h-[20%] w-full xl:w-[20%] bg-black bg-opacity-45
          hover:cursor-pointer hover:scale-110 hover:bg-fuchsia-700 hover:bg-opacity-45 
          transition duration-500"
-        href="https://pelum-uganda.vercel.app/"
+        href="https://novahr.vercel.app/"
       >
         SEE MORE
         <LuExternalLink className="ml-5" />
